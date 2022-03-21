@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #222;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+ul {
+	color: rgb(255, 209, 139);
+	font-size: 1.25rem;
+	padding: 1em;
+	list-style: none;
+}
+
+ul#myList li {
+	display: inline;
+	padding: 0.2rem;
+}
+
+.content {
+	margin: auto;
+	margin-top: 1em;
+	width: 75vw;
+	max-width: 500px;
+	background-color: #333;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.title {
+	border-bottom: 2px rgb(78, 77, 71) solid;
+	margin: auto;
+	margin-bottom: 1em;
+	color: rgb(255, 234, 139);
+	font-size: 4rem;
+	text-align: center;
+}
+
+.buttons {
+	padding: 1em;
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	padding: 1em;
+	font-size: 1.25em;
+	background-color: #444;
+	color: rgb(255, 234, 139);
+	border: none;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 5px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #555;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button:active {
+	background-color: #444;
+	color: rgb(90, 0, 0);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 2px;
+}
+
+.console {
+	color: rgb(255, 209, 139);
+	font-size: 1.25rem;
+	padding: 1em;
+	text-align: center;
+}
